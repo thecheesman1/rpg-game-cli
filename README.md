@@ -1,34 +1,32 @@
-# RPG Game CLI
+# CLI RPG Game
 
-A simple command-line RPG game built with Python.
+Welcome to the CLI RPG game! This is a text-based role-playing game that runs in your terminal.
 
 ## Features
-- Text-based adventure
+
 - Character creation
+- Multiple quests
 - Combat system
 - Inventory management
-- Turn-based battles
 
-## Installation
+## Getting Started
 
-```bash
+First, install the required dependencies:
+
+```
 pip install -r requirements.txt
 ```
 
-> Note: Make sure you have Python 3.6+ installed.
+Then, to play the game, simply run:
 
-## Dependencies
-
-- [pygame](https://www.pygame.org/) - For graphics and sound
-
-To install dependencies:
-
-```bash
-pip install -r requirements.txt
 ```
-
-## Usage
-
-```bash
 python main.py
 ```
+
+## How to Play
+
+- Use the arrow keys to navigate menus
+- Type commands to interact with the game world
+- Explore the world and complete quests
+
+Enjoy your adventure!
