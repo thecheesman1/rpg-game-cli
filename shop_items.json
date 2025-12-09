@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Wooden Sword",
+    "type": "weapon",
+    "rarity": "common",
+    "cost": 10,
+    "attack_bonus": 5
+  },
+  {
+    "name": "Iron Sword",
+    "type": "weapon",
+    "rarity": "uncommon",
+    "cost": 50,
+    "attack_bonus": 10
+  },
+  {
+    "name": "Diamond Sword",
+    "type": "weapon",
+    "rarity": "rare",
+    "cost": 200,
+    "attack_bonus": 20
+  },
+  {
+    "name": "Dragon Slayer",
+    "type": "weapon",
+    "rarity": "epic",
+    "cost": 1000,
+    "attack_bonus": 50
+  },
+  {
+    "name": "God's Blade",
+    "type": "weapon",
+    "rarity": "legendary",
+    "cost": 10000,
+    "attack_bonus": 100
+  },
+  {
+    "name": "Wooden Armor",
+    "type": "armor",
+    "rarity": "common",
+    "cost": 15,
+    "defense_bonus": 3
+  },
+  {
+    "name": "Iron Armor",
+    "type": "armor",
+    "rarity": "uncommon",
+    "cost": 75,
+    "defense_bonus": 8
+  },
+  {
+    "name": "Diamond Armor",
+    "type": "armor",
+    "rarity": "rare",
+    "cost": 300,
+    "defense_bonus": 15
+  },
+  {
+    "name": "Dragon Hide Armor",
+    "type": "armor",
+    "rarity": "epic",
+    "cost": 1500,
+    "defense_bonus": 30
+  },
+  {
+    "name": "God's Armor",
+    "type": "armor",
+    "rarity": "legendary",
+    "cost": 15000,
+    "defense_bonus": 60
+  }
+]
