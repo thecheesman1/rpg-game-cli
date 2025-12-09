@@ -4,6 +4,7 @@ A simple command-line RPG game.
 """
 
 import sys
+import random
 
 
 class Game:
@@ -48,6 +49,16 @@ class Game:
         return True
 
 
+def start_battle():
+    # Simple battle system
+    player = {'name': 'Hero', 'health': 100, 'attack': 20}
+    enemy = {'name': 'Goblin', 'health': 50, 'attack': 15}
+    
+    from combat import Combat
+    combat = Combat(player, enemy)
+    combat.battle()
+
+
 def main():
     print("Welcome to the RPG Game CLI!")
     print("Type 'help' for available commands.")
@@ -66,7 +77,8 @@ def main():
             print("  quit/exit - Exit the game")
             print("  start - Start a new game")
             print("  move <row> <col> - Make a move")
-            print("  board - Show the current board")
+            print("  board - Show the board")
+            print("  battle - Start a battle")
         elif command == "start":
             print("Starting new game...")
             game = Game()  # Reset game
@@ -91,6 +103,8 @@ def main():
                 print("Invalid move format. Use: move <row> <col>")
         elif command == "board":
             game.display_board()
+        elif command == "battle":
+            start_battle()
         else:
             print(f"Unknown command: {command}")
             print("Type 'help' for available commands.")
