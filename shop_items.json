@@ -35,6 +35,13 @@
     "attack_bonus": 100
   },
   {
+    "name": "hambrug",
+    "type": "weapon",
+    "rarity": "rare",
+    "cost": 500,
+    "attack_bonus": 25
+  },
+  {
     "name": "Wooden Armor",
     "type": "armor",
     "rarity": "common",
